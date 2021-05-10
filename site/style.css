@@ -1,0 +1,45 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 68px;
+}
+
+html { 
+    background: url(imgs/507_1351.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size-adjust: inherit;
+    font-size: xx-large;
+}
+
+.container {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.blink{
+    animation:blink 700ms infinite alternate;
+}
+
+@keyframes blink {
+    from { opacity:1; }
+    to { opacity:0; }
+};
